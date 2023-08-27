@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="city_name">Enter City Name</string>
+    <string name="search">Search</string>
+    <string name="temperature"> </string>
+    <string name="desc"> </string>
+    <string name="date_min_max_temp"> </string>
+</resources>

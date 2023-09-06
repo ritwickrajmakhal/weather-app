@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".MainActivity">
 
     <ImageView
@@ -34,6 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:hint="@string/city_name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:shadowColor="@color/black"
         app:layout_constraintRight_toRightOf="@id/guideline"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +52,8 @@
         android:text="@string/search"
         app:layout_constraintLeft_toRightOf="@id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="UsingOnClickInXml" />
+        tools:ignore="UsingOnClickInXml"
+        android:layout_marginStart="16dp" />
 
 
     <androidx.constraintlayout.widget.Guideline
